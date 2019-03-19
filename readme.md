@@ -37,3 +37,18 @@ All other lines are read in "key=value" format
 ## "default_properties" file
 
 Contains "global" properties appended to ones read from ".datamap" files. Its located at datamap home folder, and is named "default_properties.datamap". Has the same format of ".datamap" file
+
+
+## TODO
+
+- Filter list by category **#next**
+- Extract classes to their own files **#quick** **#next**
+- Rename category to categories and turn it into a list **#backlog**
+- Creata a \--create-datamap command, must create .datamap file with the properties and entry on mappings file **#backlog**
+- Find mappings on a specified folder **#backlog**
+- Filter list by property existence **#backlog**
+- Filter list by property + value **#backlog**
+- Mappings of URLs, usefull to describe repositories not cloned locally **#backlog**
+- List all existing categories **#backlog**
+- List all existing properties **#backlog**
+- Dynamically find .datamap files on folder specified on mappings **#backlog**

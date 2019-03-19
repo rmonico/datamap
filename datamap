@@ -19,18 +19,6 @@ def parse_command_line():
     # parser.add_argument("-f", "--find-maps", help="Find for .description files from current folder")
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbosity")
 
-    # TODO Extract classes to their own files, create a repository to this project
-    # TODO Rename category to categories and turn it into a list
-    # TODO Creata a --create-datamap command, must create .datamap file with the properties and entry on mappings file
-    # TODO Find mappings on a specified folder
-    # TODO Filter list by category
-    # TODO Filter list by property existence
-    # TODO Filter list by property + value
-    # TODO Mappings of URLs, usefull to describe repositories not cloned locally
-    # TODO List all existing categories
-    # TODO List all existing properties
-    # TODO Create .datamap with properties and map folders
-    # TODO Map dynamically search .datamap files for specified folder
 
     return parser.parse_args()
 
