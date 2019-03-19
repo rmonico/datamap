@@ -1,0 +1,4 @@
+description=Datamap project repository
+category=repos.meu
+synchronizer=git
+disable_bookmark=yes
