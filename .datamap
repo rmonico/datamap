@@ -1,4 +1,6 @@
 description=Datamap project repository
 category=repos.meu
 synchronizer=git
+remote=git@github.com:rmonico/datamap.git
+public=yes
 disable_bookmark=yes
